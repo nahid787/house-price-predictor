@@ -74,7 +74,7 @@ To track experiments and model runs:
 
 ```bash
 cd deployment/mlflow
-docker compose -f mlflow-docker-compose.yml up -d
+docker compose up -d
 docker compose ps
 ```
 
