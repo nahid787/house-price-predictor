@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+
+
+  frontend:
+    build: 
+      context: ./streamlit_app
+    ports: 
+      - "8501:8501"
